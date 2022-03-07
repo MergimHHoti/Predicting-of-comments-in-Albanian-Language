@@ -40,7 +40,7 @@ Training time: 16.842594s; Prediction time: 52.563069s
 >>> report = classification_report(testData['Label'], prediction_linear, output_dict=True)
 >>> print('positive: ', report['pos'])
 positive:  {'precision': 0.6, 'recall': 0.7692307692307693, 'f1-score': 0.6741573033707865, 'support': 39}
->>> # Ne rreshtin me larte jane te paraqitura rezultatet per komentet pozitive
+Results:
 >>> print('negative: ', report['neg'])
 negative:  {'precision': 0.6666666666666666, 'recall': 0.47368421052631576, 'f1-score': 0.5538461538461538, 'support': 38}
 >>> 
